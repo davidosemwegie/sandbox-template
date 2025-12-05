@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@anthropic-ai/claude-code": "^2.0.59",
+    "@anthropic-ai/sdk": "^0.71.1",
     "@remotion/bundler": "4.0.382",
     "@remotion/cli": "4.0.382",
     "@remotion/google-fonts": "4.0.382",
@@ -55,6 +56,6 @@
     "remotion": "remotion studio",
     "render": "remotion render",
     "deploy": "node deploy.mjs",
-    "code": "npx @anthropic-ai/claude-code -p --dangerously-skip-permissions"
+    "code": "cd src/remotion/editable && npx @anthropic-ai/claude-code -p --dangerously-skip-permissions"
   }
 }

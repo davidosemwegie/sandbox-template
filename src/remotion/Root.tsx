@@ -1,5 +1,5 @@
 import { Composition } from "remotion";
-import { Main } from "./MyComp/Main";
+import { Main } from "./editable/Main";
 import {
   COMP_NAME,
   defaultMyCompProps,

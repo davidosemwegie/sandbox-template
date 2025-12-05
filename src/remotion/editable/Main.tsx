@@ -7,10 +7,10 @@ import {
   useVideoConfig,
 } from "remotion";
 import { CompositionProps } from "../../../types/constants";
-import { NextLogo } from "./NextLogo";
+import { NextLogo } from "../MyComp/NextLogo";
 import { loadFont, fontFamily } from "@remotion/google-fonts/Inter";
-import { Rings } from "./Rings";
-import { TextFade } from "./TextFade";
+import { Rings } from "../MyComp/Rings";
+import { TextFade } from "../MyComp/TextFade";
 
 loadFont("normal", {
   subsets: ["latin"],

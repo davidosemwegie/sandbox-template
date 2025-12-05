@@ -12,7 +12,7 @@ import {
   VIDEO_HEIGHT,
   VIDEO_WIDTH,
 } from "../../types/constants";
-import { Main } from "../remotion/MyComp/Main";
+import { Main } from "../remotion/editable/Main";
 
 const Home: NextPage = () => {
   const [text, setText] = useState<string>(defaultMyCompProps.title);
