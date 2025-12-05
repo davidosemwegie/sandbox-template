@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  overflow: hidden;
+}
+
 :root {
   --background: #fff;
   --foreground: #000;
